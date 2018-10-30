@@ -1,1 +1,31 @@
-color
+
+body {
+  padding-left: 6em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: 0D0E0A;
+  background-color: #A6CDDA; 
+}
+
+form {
+    /* SÃ³lo para centrar el formulario a la pÃ¡gina */
+    margin: 18;
+    width: 400px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 2px solid #4C7EBF;
+    border-radius: 2em;
+}
+
+input, textarea {
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 2px solid #999;
+}
+
+.button {
+    /* Para posicionar los botones a la misma posiciÃ³n que los campos 
+de texto */
+    padding-left: 125px; /* mismo tamaÃ±o a todos los elementos label */
+}
+
